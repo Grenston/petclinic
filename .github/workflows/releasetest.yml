@@ -1,0 +1,9 @@
+name: Release test
+on:
+  release:
+    types: [created]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo $GITHUB_REF
