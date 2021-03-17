@@ -37,7 +37,7 @@ jobs:
           file: ./petclinic/Dockerfile
           push: true
           tags: |
-            744238015194.dkr.ecr.us-east-1.amazonaws.com/girish-ecr-repo:.${{ github.run_number }}
+            744238015194.dkr.ecr.us-east-1.amazonaws.com:.${{ github.run_number }}
             
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
