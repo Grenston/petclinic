@@ -34,7 +34,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
           context: .
-          file: girish/Dockerfile
+          file: Dockerfile
           push: true
           tags: |
             744238015194.dkr.ecr.us-east-1.amazonaws.com/girish-ecr-repo:${{ github.run_number }}
