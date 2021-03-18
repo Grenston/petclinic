@@ -3,7 +3,6 @@
 
 name: Spring-Petclinic
 on:
-
   push:
     branches: [ girish ]
 
